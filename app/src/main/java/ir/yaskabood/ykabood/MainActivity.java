@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         browser = (WebView) findViewById(R.id.webview);
         browser.setWebViewClient(new WebViewClient());
         browser.getSettings().setJavaScriptEnabled(true);
-        browser.loadUrl("http://www.y4askabood.ir/view/");
+        browser.loadUrl("http://www.yaskabood.ir/view/");
 
 
         browser.getSettings().setAppCacheMaxSize(1024*1024*1024);
